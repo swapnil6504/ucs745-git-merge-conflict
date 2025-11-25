@@ -12,9 +12,12 @@ def divide(a, b):
         return "Error: Division by zero"
     return a / b
 
+def power(a, b):
+    return a ** b
+
 if __name__ == "__main__":
     print("Simple CLI Calculator")
-    print("Operations: +, -, *, /")
+    print("Operations: +, -, *, /, ^")
     a = float(input("Enter first number: "))
     b = float(input("Enter second number: "))
     op = input("Enter operation (+, -, *, /): ")
@@ -27,6 +30,8 @@ if __name__ == "__main__":
         result = multiply(a, b)
     elif op == "/":
         result = divide(a, b)
+    elif op == "^":
+        result = power(a, b)
     else:
         result = "Invalid operation"
 
