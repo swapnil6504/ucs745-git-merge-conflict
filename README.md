@@ -1,6 +1,6 @@
 # Simple CLI Calculator
 
-This project is a simple command-line calculator written in Python.
+This project is an advanced CLI calculator focused on user-friendly input and clear output.
 
 It supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
